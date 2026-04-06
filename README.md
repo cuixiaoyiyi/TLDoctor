@@ -25,6 +25,13 @@ Currently, the tool supports the detection of four classic `ThreadLocal` misuse/
 - Java 23
 - Maven
 
+## Usage
+```
+  mvn compile
+
+  java -jar TLDetector.jar --jar /path/to/your/target.jar
+```
+
 ## File Structure
 - Main file: `TLJarScannerMain.java`
 - Detector for Misuse Type I: `SootTypeIDetector.java`
